@@ -1,0 +1,139 @@
+ul{
+	list-style-type:none;
+	padding:2px;
+	margin-left:4px;
+}
+li{
+	padding:4px;
+}
+#container{
+	background-color:#66ccff;
+	border:1px solid black;
+	width:auto;
+	height: 720px;
+	
+	}
+	#logo{
+	width: 200px;
+	text-align: left;
+	}
+	p{
+		font-size:20px;
+		font-family: Timesof NewRoman;
+		
+	}
+h1{
+	background-color:white;
+	color: black;
+	height:35px;
+	
+	
+	text-align:center;
+}
+#login{
+	margin-right: 100px;	
+	
+	text-align:right;
+	}
+
+#content{
+	border:2px solid black;
+	width:1285px;
+	height: 500px;
+	background-color:white;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	padding:12px;
+	
+	}
+#navigation{
+	border: 2px solid black;
+	padding-top: 20px;
+	float:left;
+    background-color: #66ccff;
+    width:133px;
+    height:475px;
+	}
+#main{
+	
+	border:2px solid ;
+	width:1120px;
+	height:475px;
+	float:right;
+	padding:10px;
+}
+#footer1{
+	text-align:right;
+	background-color: white;
+	padding:4px;
+	color:black;
+	margin-left:3px;
+	margin-right:3px;
+	}
+.profile{
+	
+	text-decoration:none;
+	border: 3px solid  black;
+	background-color: white;
+	border-radius: 25px;
+	padding:0 25px;
+}
+.photos{
+
+	text-decoration:none;
+	border: 3px solid black;
+	padding:0 25px;
+	border-radius: 25px;
+	background-color: white;
+	
+}
+.music{
+
+	text-decoration:none;
+	border: 3px solid black;
+	padding:0 27px;
+	border-radius: 25px;
+	background-color: white;
+	
+	
+}
+
+.videos{
+	
+	text-decoration:none;
+	border: 3px solid  black;
+	background-color: white;
+	border-radius: 25px;
+	padding:0 25px;
+}
+.friends{
+
+	text-decoration:none;
+	border: 3px solid black;
+	padding:0 23px;
+	border-radius: 25px;
+	background-color: white;
+	
+}
+.events{
+
+	text-decoration:none;
+	border: 3px solid black;
+	padding:0 25px;
+	border-radius: 25px;
+	background-color: white;
+	
+	
+}
+
+.chat{
+
+	text-decoration:none;
+	border: 3px solid black;
+	padding:0 30px;
+	border-radius: 25px;
+	background-color: white;
+	
+	
+}

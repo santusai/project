@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Home</title>
+	<link rel="stylesheet" href ="style1.css">
+	</head>
+<style>
+body {
+    background-color: lightblue;
+	text-align:center;
+}
+
+</style>
+	<body>
+	<div id="container">
+	<div align="right" class="style43"><img src="Aboutme.gif" align="left" style="width:200px;height:95px;" >
+	<form id="frmSearch" class="search2" method="get" action="default.html" />
+	<span class="AddOrange"><a href="home.html" title="home">Home</a></span> | 
+	<span class="AddOrange"><a href="about.html" title="about">About</a></span> |
+	<span class="AddOrange"> <a href="contact.html">Contact</a> |<span class="AddOrange"> <a href="register.html">Register</a> 
+	| <a href="help.html">Help</a> </span>
+                          
+	 </div>
+	<h1>Welcome! SANTHOSH</h1>
+	
+	<div id="content">
+	<div id="navigation">
+	<ul>
+	<li><a class="profile" href="profile.html" ><b>Profile</b></a></li>
+	<li><a class="photos" href="photos.html" ><b>Photos</b></a></li>
+	<li><a class="music" href="music.html" ><b>Music</b></a></li>
+		<li><a class="videos" href="videos.html" ><b>Videos</b></a></li>
+	<li><a class="friends" href="friends.html" ><b>Friends</b></a></li>
+	<li><a class="events" href="events.html" ><b>Events</b></a></li>
+	
+	</ul>
+	</div>
+	<div id="main">
+
+	<img src="me.jpg" align="left" style="width:600px;height:375px;" ><span class="AddOrange">
+	<div id="login">
+	<form align="center" action="login.php" autocomplete="on"> 
+     <p> 
+	 
+          <label align="right" for="username"  >Username:</label>
+          <input id="username" name="username" required="required" type="text" placeholder="Username"/>
+     </p>
+     <p> 
+          <label for="password"  data-icon="p">Password:</label>
+          <input id="password" name="password" required="required" type="password" placeholder="Password" /> 
+     </p>
+     <p class="keeplogin"> 
+          <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+          <label for="loginkeeping">Keep me logged in</label>
+     </p>
+     <p class="login button"> 
+          <input type="button" onclick="check(this.form)" value="Login"/>
+            <input type="reset" value="Cancel"/>
+     </p>
+</form>
+<script language="javascript">
+            function check(form) { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.username.value == "uname" && form.password.value == "pwd") {
+                    window.open('target.html')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
+	</div>
+	
+	</div>
+	
+	</div>
+<div id="footer1">
+	<h2>Privacy Polocy &Copyright;  Santhosh Janagam</h2>
+	</div>
+	</div>
+	</body>
+	</html>
